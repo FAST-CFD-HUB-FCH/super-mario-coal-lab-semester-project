@@ -1,0 +1,16 @@
+; Common game modules. Included once by each executable entry file.
+; This is textual inclusion into one flat .COM binary; no linker is used.
+%include "constant.asm"
+%include "data.asm"
+%include "art.asm"
+%include "font.asm"
+%include "sounds.asm"
+%include "platform.asm"
+%include "audio.asm"
+%include "graphics.asm"
+%include "world.asm"
+%include "physics.asm"
+%include "entities.asm"
+%include "rules.asm"
+%include "states.asm"
+%include "screens.asm"
